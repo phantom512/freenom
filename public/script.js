@@ -1,5 +1,5 @@
 function showInfo(text, isError = false) {
-  const el = select('#info');
+  const el = document.querySelector('#info');
   el.innerHTML = text;
   el.style.display = 'block';
   if (isError) el.classList.add('error');
