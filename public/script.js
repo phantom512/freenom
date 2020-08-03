@@ -8,7 +8,7 @@ function showInfo(text, isError = false) {
     el.style.display = 'none';
   }, 6000);  
 }
-
+//111
 (async function() {
   const status = (await axios('/status.json')).data;
   if (!status.lastUpdate) return;
